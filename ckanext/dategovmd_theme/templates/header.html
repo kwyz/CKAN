@@ -1,0 +1,29 @@
+{% ckan_extends %}
+
+    {% block header_account_container_content %}
+	    <ul class="list-unstyled" style="float:left;">
+	        <li>
+	            <img class="gov-logo-image" src="/logo-gov.png" alt="Guvernul Republicii Moldova">
+		        <a class="gov-link" href="https://gov.md" target="_blank">
+		            {{ _('GOV Title') }}
+		        </a>
+	        </li>
+	    </ul>
+	    {# Insert the contents of the original header_wrapper_container block: #}
+	    {{ super() }}
+    {% endblock %}
+
+    {% block header_logo %} 
+        {% if g.site_logo %}
+            <a class="logo" href="{{ h.url_for('home.index') }}">
+                <img src="{{h.url_for_static_or_external(g.site_logo)}}" alt="Portalul de date deschise" title="Portalul de date deschise" />
+            </a>
+        {% else %}
+            <h1>
+                <a href="{{ h.url_for('home.index') }}">{{ g.site_title}}</a>
+            </h1>
+            {% if g.site_description %}
+                <h2>{{ g.site_description }}</h2>
+            {% endif %}
+        {% endif %}
+    {%endblock %}           
