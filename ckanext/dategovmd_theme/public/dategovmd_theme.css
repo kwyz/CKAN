@@ -43,13 +43,20 @@
 /* =====================================================
  * 	The css classes for date.gov.md header logo
  * ===================================================== */
-
-.header-image #site-name {
+.header-image > div{
+    display: table-row;
+}
+.header-mage > div .logo {
     display: table-cell;
+    vertical-align: middle;
+    height: 44px;
+}
+.header-image #site-name {
+    display: flex;
     font-size: 1.1em;
     padding-left: .5em;
     line-height: 1em;
-    vertical-align: middle;
+    align-items: center;
     height: 44px;
 }
 .header-image #site-name a {

@@ -13,21 +13,12 @@
 {% endblock %}
 
 {% block header_logo %} 
-    {% if g.site_logo %}
-        <div>
-    	    <a class="logo" href="{{ h.url_for('home.index') }}">
-                <img src="{{h.url_for_static_or_external(g.site_logo)}}" alt="{{ _('Logo Title') }}" title="{{ _('Logo Title') }}" />
-            </a>
-	    <h1 id="site-name">
-	        <a href="{{ h.url_for('home.index') }}">{{ _('Logo Title') }}</a>
-	    </h1>
-	 </div>
-    {% else %}
-        <h1>
-            <a href="{{ h.url_for('home.index') }}">{{ g.site_title}}</a>
+    <div>
+        <a class="logo" href="{{ h.url_for('home.index') }}">
+            <img src="/logo.png" alt="{{ _('Logo Title') }}" title="{{ _('Logo Title') }}" />
+        </a>
+	<h1 id="site-name">
+           <a href="{{ h.url_for('home.index') }}">{{ _('Logo Title') }}</a>
         </h1>
-        {% if g.site_description %}
-            <h2>{{ g.site_description }}</h2>
-        {% endif %}
-    {% endif %}
+    </div>
 {%endblock %}
