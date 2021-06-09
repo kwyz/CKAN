@@ -1,0 +1,57 @@
+# Romanian translations for ckanext-dategovmd_theme.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the
+# ckanext-dategovmd_theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-dategovmd_theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-09 11:13+0000\n"
+"PO-Revision-Date: 2021-06-09 11:22+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ro\n"
+"Language-Team: ro <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100"
+" < 20)) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ckanext/dategovmd_theme/templates/footer.html:7
+msgid "GOV Links"
+msgstr "Portaluri Guvernamentale"
+
+#: ckanext/dategovmd_theme/templates/footer.html:42
+msgid "About"
+msgstr "Despre"
+
+#: ckanext/dategovmd_theme/templates/footer.html:48
+msgid "CKAN API"
+msgstr "CKAN API"
+
+#: ckanext/dategovmd_theme/templates/footer.html:49
+msgid "CKAN Association"
+msgstr "Asociația CKAN"
+
+#: ckanext/dategovmd_theme/templates/footer.html:62
+
+msgid "Powered by"
+msgstr ""
+"<strong>Cu susținerea</strong> <a class=\"hide-text ckan-footer-logo\" "
+"href=\"http://ckan.org\">CKAN</a>"
+
+
+#: ckanext/dategovmd_theme/templates/header.html:5
+#: ckanext/dategovmd_theme/templates/header.html:7
+msgid "GOV Title"
+msgstr "Guvernul Republicii Moldova"
+
+#: ckanext/dategovmd_theme/templates/header.html:18
+msgid "Logo Title"
+msgstr "Portalul Guvernamental al Datelor Deschise"
+
+
