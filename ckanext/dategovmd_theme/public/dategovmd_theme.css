@@ -46,14 +46,14 @@
 
 .header-image #site-name {
     display: table-cell;
-    font-size: 11em;
+    font-size: 1.1em;
     padding-left: .5em;
     line-height: 1em;
     vertical-align: middle;
     height: 44px;
 }
 .header-image #site-name a {
-    color: #005497;
+    color: #fff;
     opacity: .9;
     text-decoration: none;
 }
