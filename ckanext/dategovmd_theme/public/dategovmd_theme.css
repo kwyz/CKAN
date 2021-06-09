@@ -43,6 +43,10 @@
 /* =====================================================
  * 	The css classes for date.gov.md header logo
  * ===================================================== */
+.header-image {
+    max-width: 280px;
+}
+
 .header-image > div{
     display: table-row;
 }
@@ -58,6 +62,7 @@
     line-height: 1em;
     align-items: center;
     height: 44px;
+    font-weight: 600;
 }
 .header-image #site-name a {
     color: #fff;
