@@ -1,0 +1,19 @@
+{% set intro = g.site_intro_text %}
+<div class="module-content box">
+    <div>
+        {% if intro %}
+            {{ h.render_markdown(intro) }}
+        {% else %}
+            <h1 class="page-heading">{{ _("Wellcome to PGDD") }}</h1>
+            <p>{{ _("Promoted message") }} </p>
+        {% endif %}
+    </div>
+    {% block home_image %}
+    <section class="featured media-overlay hidden-xs">
+        <h2 class="media-heading">{% block home_image_caption %}{{ _("Promoted image caption") }}{% endblock %}</h2>
+        {% block home_image_content %}
+            <a class="media-image" href="#">
+                <img class="img-responsive" src="/promoted-image.png" alt="" width="420" />
+            </a>														{% endblock %}													    </section>
+{% endblock %}
+</div>

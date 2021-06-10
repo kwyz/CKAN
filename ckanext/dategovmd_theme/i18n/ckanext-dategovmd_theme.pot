@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-dategovmd_theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-10 06:35+0000\n"
+"POT-Creation-Date: 2021-06-10 07:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,8 +48,16 @@ msgstr ""
 msgid "Logo Title"
 msgstr ""
 
-#: ckanext/dategovmd_theme/templates/home/promoted.html:3
-#: ckanext/dategovmd_theme/templates/home/promoted.html:8
+#: ckanext/dategovmd_theme/templates/home/snippets/promoted.html:7
+msgid "Wellcome to PGDD"
+msgstr ""
+
+#: ckanext/dategovmd_theme/templates/home/snippets/promoted.html:8
+msgid "Promoted message"
+msgstr ""
+
+#: ckanext/dategovmd_theme/templates/home/snippets/promoted.html:12
+#: ckanext/dategovmd_theme/templates/home/snippets/promoted.html:17
 msgid "Promoted image caption"
 msgstr ""
 

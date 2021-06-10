@@ -53,3 +53,9 @@ msgstr "Government Open Data Portal"
 
 msgid "Promoted image caption"
 msgstr "Search in public data"
+
+msgid "Wellcome to PGDD"
+msgstr "Wellcome to Government Open Data Portal"
+
+msgid "Promoted message"
+msgstr "Information becomes more important if it is shared and much less valuableif its is treasured." 

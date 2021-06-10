@@ -57,3 +57,10 @@ msgstr "Portalul Guvernamental al Datelor Deschise"
 msgid "Promoted image caption"
 msgstr "Caută în date publice"
 
+msgid "Wellcome to PGDD"
+msgstr "Bun venit la Portalul Guvernamental de Date Deschise"
+
+msgid "Promoted message"
+msgstr "Informația devine mai importantă, dacă este împărtășită și mai puțin valoroasă dacă este tezaurizată."
+
+
