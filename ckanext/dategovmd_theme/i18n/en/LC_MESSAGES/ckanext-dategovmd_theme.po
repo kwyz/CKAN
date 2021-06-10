@@ -49,7 +49,7 @@ msgstr "Government of Republic of Moldova"
 
 #: ckanext/dategovmd_theme/templates/header.html:18
 msgid "Logo Title"
-msgstr "Government open data portal"
+msgstr "Government Open Data Portal"
 
 msgid "Promoted image caption"
 msgstr "Search in public data"
