@@ -30,7 +30,7 @@
 }
 
 /* =====================================================
-         The spaccing css classes declaration
+           The spacing css classes declaration
    ===================================================== */
    
 .ml-1 {
@@ -41,14 +41,14 @@
 }
 
 /* =====================================================
- * 	The css classes for date.gov.md header logo
+ * 	    The css classes for date.gov.md header logo
  * ===================================================== */
 .header-image {
-    max-width: 280px;
+    max-width: 250px;
 }
 
-.header-image > div{
-    display: table-row;
+.header-image > div {
+    display: inline-flex;
 }
 .header-mage > div .logo {
     display: table-cell;
@@ -68,6 +68,7 @@
     color: #fff;
     opacity: .9;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 

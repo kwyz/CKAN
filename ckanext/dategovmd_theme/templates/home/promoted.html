@@ -1,0 +1,11 @@
+{% ckan_extends %}
+{% block home_image_caption %}
+    {{ _('Promoted image caption') }}
+{% endblock %}
+
+{% block home_image_content %}
+    <a class="media-image" href="#">
+        <img src="/promoted-image.png" alt="{{_('Promoted image caption')}}" width="240" height="240" />
+    </a>
+{% endblock %}
+

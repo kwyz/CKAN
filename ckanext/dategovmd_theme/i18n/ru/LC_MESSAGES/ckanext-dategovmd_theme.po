@@ -52,3 +52,5 @@ msgstr "Правительство Республики Молдова"
 msgid "Logo Title"
 msgstr "Правительственный Портал Открытых Данных"
 
+msgid "Promoted image caption"
+msgstr "Поиск в общедоступных данных"

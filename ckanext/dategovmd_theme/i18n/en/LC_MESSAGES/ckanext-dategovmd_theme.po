@@ -51,3 +51,5 @@ msgstr "Government of Republic of Moldova"
 msgid "Logo Title"
 msgstr "Government open data portal"
 
+msgid "Promoted image caption"
+msgstr "Search in public data"

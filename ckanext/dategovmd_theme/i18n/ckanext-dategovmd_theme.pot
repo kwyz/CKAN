@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-dategovmd_theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-09 11:13+0000\n"
+"POT-Creation-Date: 2021-06-10 06:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,33 +20,36 @@ msgstr ""
 
 #: ckanext/dategovmd_theme/templates/footer.html:7
 msgid "GOV Links"
-msgstr "Government portals"
+msgstr ""
 
 #: ckanext/dategovmd_theme/templates/footer.html:42
 msgid "About"
-msgstr "About"
+msgstr ""
 
 #: ckanext/dategovmd_theme/templates/footer.html:48
 msgid "CKAN API"
-msgstr "CKAN API"
+msgstr ""
 
 #: ckanext/dategovmd_theme/templates/footer.html:49
 msgid "CKAN Association"
-msgstr "CKAN Association"
+msgstr ""
 
 #: ckanext/dategovmd_theme/templates/footer.html:62
-msgid ""
-"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
-"href=\"http://ckan.org\">CKAN</a>"
+msgid "Powered by"
 msgstr ""
-"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
-"href=\"http://ckan.org\">CKAN</a>"
 
 #: ckanext/dategovmd_theme/templates/header.html:5
 #: ckanext/dategovmd_theme/templates/header.html:7
 msgid "GOV Title"
-msgstr "Government of Republic of Moldova"
+msgstr ""
 
 #: ckanext/dategovmd_theme/templates/header.html:18
+#: ckanext/dategovmd_theme/templates/header.html:21
 msgid "Logo Title"
-msgstr "Portalul Guvernamental al Datelor Deschise"
+msgstr ""
+
+#: ckanext/dategovmd_theme/templates/home/promoted.html:3
+#: ckanext/dategovmd_theme/templates/home/promoted.html:8
+msgid "Promoted image caption"
+msgstr ""
+

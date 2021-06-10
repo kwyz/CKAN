@@ -54,4 +54,6 @@ msgstr "Guvernul Republicii Moldova"
 msgid "Logo Title"
 msgstr "Portalul Guvernamental al Datelor Deschise"
 
+msgid "Promoted image caption"
+msgstr "Caută în date publice"
 
