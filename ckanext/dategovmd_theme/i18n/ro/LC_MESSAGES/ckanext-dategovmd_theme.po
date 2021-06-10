@@ -63,4 +63,63 @@ msgstr "Bun venit la Portalul Guvernamental de Date Deschise"
 msgid "Promoted message"
 msgstr "Informația devine mai importantă, dacă este împărtășită și mai puțin valoroasă dacă este tezaurizată."
 
+msgid "Search data"
+msgstr "Cautați în date"
+
+msgid "Popular tags"
+msgstr "Tag-uri populare"
+
+msgid "organization"
+msgstr "organizație"
+
+msgid "organizations"
+msgstr "organizații"
+
+msgid "dataset"
+msgstr "set de date"
+
+msgid "datasets"
+msgstr "seturi de date"
+
+msgid "CKAN statistics"
+msgstr "Statistici"
+
+msgid "group"
+msgstr "grupă"
+
+msgid "groups"
+msgstr "grupe"
+
+msgid "Organizations helper info"
+msgstr "Organizațiile CKAN sunt utilizate pentru a crea, gestiona și publica colecții de seturi de date. Utilizatorii pot avea diferite roluri în cadrul unei organizații, în funcție de nivelul lor de autorizare pentru a crea, edita și publica."
+
+msgid "Groups helper info"
+msgstr "Puteți utiliza grupurile CKAN pentru a crea și gestiona colecții de seturi de date. Aceasta ar putea fi catalogarea seturilor de date pentru un anumit proiect sau echipă, sau pe o anumită temă, sau ca un mod foarte simplu de a ajuta oamenii să găsească și să caute propriile seturi de date publicate."
+
+msgid "Order by"
+msgstr "Sortează după"
+
+msgid "Last Updated"
+msgstr "Ultima actualizare"
+
+#: ckan/templates/package/search.html:56
+#, python-format
+msgid ""
+"You can also access this registry using the %(api_link)s (see "
+"%(api_doc_link)s) or download a %(dump_link)s."
+msgstr "De asemenea, puteți accesa acest registru folosind %(api_link)s (consultați %(api_doc_link)s) sau descărcând %(dump_link)s."
+
+#: ckan/templates/package/search.html:60
+#, python-format
+msgid ""
+"You can also access this registry using the %(api_link)s (see "
+"%(api_doc_link)s)."
+msgstr "De asemenea, puteți accesa acest registru folosind %(api_link)s (consultați %(api_doc_link)s)."
+
+msgid "Search datasets..."
+msgstr "Caută seturi de date..."
+
+msgid "Home page placeholder"
+msgstr "ex. Finanțe și Buget"
+
 

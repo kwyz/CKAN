@@ -60,3 +60,52 @@ msgstr "Добро пожаловать в Правительственный П
 
 msgid "Promoted message"
 msgstr "Информация становится более важной, если ею деляся, и гараздо менее ценной, если ею е делится."
+
+msgid "Search data"
+msgstr "Поиск данных"
+
+msgid "Popular tags"
+msgstr "Популярные теги"
+
+msgid "organization"
+msgstr "организация"
+
+msgid "organizations"
+msgstr "организации"
+
+msgid "dataset"
+msgstr "набор данных"
+
+msgid "datasets"
+msgstr "наборы данных"
+
+msgid "CKAN statistics"
+msgstr "Статистика"
+
+msgid "group"
+msgstr "група"
+
+msgid "groups"
+msgstr "групы"
+
+msgid "Organizations helper info"
+msgstr "Организации CKAN используются для создания, управления и публикации коллекций наборов данных. Пользователи могут иметь разные роли в организации, в зависимости от их уровня авторизации для создания, редактирования и публикации."
+
+msgid "Groups helper info"
+msgstr "Вы можете использовать группы CKAN для создания коллекций наборов данных и управления ими. Это может быть каталогизация наборов данных для конкретного проекта или группы, или по определенной теме, или как очень простой способ помочь людям найти и выполнить поиск в ваших собственных опубликованных наборах данных."
+
+msgid "Order by"
+msgstr "Сортировать по"
+
+msgid "Documentation information links"
+msgstr "Вы также можете получить доступ к этому реестру с помощью {{api_link}} (см. {{Api_doc_link}})."
+
+msgid "Documentation information links with dump"
+msgstr "Вы также можете получить доступ к этому реестру с помощью {{api_link}} (см. {{Api_doc_link}}) или {{ dump_link}}."
+
+msgid "Search datasets..."
+msgstr "Поиск в наборах данных..."
+
+msgid "Home page placeholder"
+msgstr "ex. Finanțe și Buget"
+
