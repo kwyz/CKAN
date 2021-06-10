@@ -81,7 +81,7 @@ msgstr "set de date"
 msgid "datasets"
 msgstr "seturi de date"
 
-msgid "CKAN statistics"
+msgid "{0} statistics"
 msgstr "Statistici"
 
 msgid "group"

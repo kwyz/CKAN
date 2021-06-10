@@ -79,7 +79,7 @@ msgstr "набор данных"
 msgid "datasets"
 msgstr "наборы данных"
 
-msgid "CKAN statistics"
+msgid "{0} statistics"
 msgstr "Статистика"
 
 msgid "group"
