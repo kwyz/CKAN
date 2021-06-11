@@ -77,7 +77,7 @@ msgid "dataset"
 msgstr "набор данных"
 
 msgid "datasets"
-msgstr "наборы данных"
+msgstr "пакеты данных"
 
 msgid "{0} statistics"
 msgstr "Статистика"

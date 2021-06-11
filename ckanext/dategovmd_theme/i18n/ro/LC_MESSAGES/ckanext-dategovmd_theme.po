@@ -64,7 +64,7 @@ msgid "Promoted message"
 msgstr "Informația devine mai importantă, dacă este împărtășită și mai puțin valoroasă dacă este tezaurizată."
 
 msgid "Search data"
-msgstr "Cautați în date"
+msgstr "Căutați în date"
 
 msgid "Popular tags"
 msgstr "Tag-uri populare"
