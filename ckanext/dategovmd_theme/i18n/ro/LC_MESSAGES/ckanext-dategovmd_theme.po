@@ -123,3 +123,17 @@ msgid "Home page placeholder"
 msgstr "ex. Finanțe și Buget"
 
 
+#: ckan/templates/home/snippets/about_text.html:1
+msgid "About Information"
+msgstr ""
+"<p><b>Scurtă introducere și descriere a inițiativei</b></p>"
+"<p>Platforma date.gov.md este un pilon-cheie pentru agenda de Modernizare tehnologică a guvernării (e-Transformare) și are drept scop facilitarea accesului cetăţenilor la datele ministerelor și instituțiilor administrației publice centrale. Inițiativa Date Deschise exprimă interesul Executivului pentru dezvoltarea unei guvernări transparente și aplicarea inovaţiilor în sprijinul cetățenilor. În acest fel, autoritățile devin mai receptive, iar cetăţenii pot participa activ la procesul de luare a deciziilor. Accesul la date guvernamentale cu caracter public reprezintă o iniţiativă inovatoare în cadrul guvernelor, societăţii civile şi comunităţilor de tehnologii informaţionale şi de comunicaţii (TIC) din întreaga lume.</p>"
+"<p><b>Scurta descriere a portalului</b></p>"
+"<p>Bine ați venit pe portalul guvernamental pentru date deschise. Aici puteți căuta, descărca și reutiliza date guvernamentale deschise pentru a îmbunătăți transparența, productivitatea și responsabilitatea instituțiilor publice. Datele deschise sunt acele date oferite de către autoritățile publice în format conceput pentru a fi citit de calculator, la un nivel dezagregat. Cu toate acestea, acestea nu conțin informații personale, secrete comerciale ori secrete de stat. Identificarea și publicarea culegerilor de date de interes pentru cetățeni și întreprinderi reprezintă sarcini ale autorităților publice. Această practică va promova transparența, productivitatea și responsabilitatea în cadrul sectorului public. Date.gov.md încurajează participarea activă a cetățenilor. Toți cetățenoi, inclusiv tu, pot promova datele deschise și pot beneficia de acestea.</p>"
+"<p><b>Despre condițiile de reutilizare/b></p>"
+"<p>Orice persoană fizică sau juridică poate reutiliza documentul pus la dispoziție de o autoritate sau instituţie publică în conformitate cu Condiţiile de accesare şi"
+" reutilizare a informaţiilor din sectorul public. Reutilizarea documentului poate fi efectuată:"
+"• pentru a-l reproduce, copia, publica şi transmite, în condiţiile legislaţiei în domeniu; "
+"• pentru a-l disemina şi redistribui;"
+"• pentru a adapta, modifica, transforma şi extrage din el date cu scopul de a crea documente derivate;"
+"• pentru a-l exploata în scop comercial, de exemplu, prin combinarea cu alte documente, sau prin includerea lui în propriul produs sau propria aplicație.</p>"

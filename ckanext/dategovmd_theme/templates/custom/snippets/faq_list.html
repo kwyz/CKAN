@@ -1,0 +1,14 @@
+{% block faq_list %}
+{% if faqs %}
+<ul class="list-unstyled dataset-list">
+    {% block faq_list_inner %}
+    {% for faq in faqs %}
+    {% snippet 'custom/snippets/faq_item.html', faq=faq %}
+    {% endfor %}
+    {% endblock %}
+</ul>
+{% endif %}
+{% endblock %}
+
+
+

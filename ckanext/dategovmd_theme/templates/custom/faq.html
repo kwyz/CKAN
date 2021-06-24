@@ -1,0 +1,15 @@
+{% extends 'page.html' %}
+
+{% block subtitle %} {{_('FAQ')}} {% endblock %}
+
+{% block breadcrumb_content %}
+<li class="active">{{_('FAQ')}}</li>
+{% endblock %}
+
+{% block page_header %}{% endblock %}
+{% block secondary %}{% endblock %}
+{% block primary %}
+<article class="module">
+        {% snippet 'custom/snippets/faq_list.html', faqs=h.faq_list() %}
+</article>
+{%endblock%}

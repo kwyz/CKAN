@@ -1,0 +1,14 @@
+{% set lang=h.lang() %}
+
+{% block faq_list %}
+<li class="dataset-item module-content">
+    <div class="dataset-content">
+        <h2 class="dataset-heading">
+            {{faq['question'][lang]}}
+        </h2>
+        <div>
+            {{faq['answer'][lang]}}
+        </div>
+    </div>
+</li>
+{% endblock %}
