@@ -32,6 +32,9 @@ msgstr "About"
 msgid "CKAN API"
 msgstr "CKAN API"
 
+msgid "FAQ"
+msgstr "FAQ"
+
 #: ckanext/dategovmd_theme/templates/footer.html:49
 msgid "CKAN Association"
 msgstr "CKAN Association"
@@ -46,6 +49,9 @@ msgstr ""
 #: ckanext/dategovmd_theme/templates/header.html:7
 msgid "GOV Title"
 msgstr "Government of Republic of Moldova"
+
+msgid "News"
+msgstr "News"
 
 #: ckanext/dategovmd_theme/templates/header.html:18
 msgid "Logo Title"
@@ -84,9 +90,8 @@ msgstr ""
 "<p><b>About the conditions for re-use</b></p>"
 "<p>Every natural person or legal entity may re-use the document made available by a public authority or institution in accordance with "
 "the conditions for accessing and re-using information relating to the public sector. The re-use of the document can be performed in order "
-"to: <br>" 
-"• reproduce, copy, publish and transmit it pursuant to the relevant legislation; <br>"
-"• disseminate and distribute it; <br>"
-"• adapt, modify, transform and extract data from it in order to create derived documents; <br>"
-"• exploit it for commercial purposes, for instance, by combining it with other documents or including it into your own product or application."
-"</p>"
+"to:" 
+"<ul><li>reproduce, copy, publish and transmit it pursuant to the relevant legislation;</li>"
+"<li>disseminate and distribute it;</li>"
+"<li>adapt, modify, transform and extract data from it in order to create derived documents;</li>"
+"<li>exploit it for commercial purposes, for instance, by combining it with other documents or including it into your own product or application</li></ul></p>"

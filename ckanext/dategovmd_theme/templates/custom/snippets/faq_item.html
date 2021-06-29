@@ -4,10 +4,10 @@
 <li class="dataset-item module-content">
     <div class="dataset-content">
         <h2 class="dataset-heading">
-            {{faq['question'][lang]}}
-        </h2>
+            {{ h.get_translation(faq['question'],lang) }}
+        </h2>   
         <div>
-            {{faq['answer'][lang]|safe}}
+            {{ h.get_translation(faq['answer'], lang) | safe }}
         </div>
     </div>
 </li>

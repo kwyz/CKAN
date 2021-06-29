@@ -1,0 +1,62 @@
+{#
+limit-text-to-3-rows - class used to reduce number of rows for abstract news information, no more than 3 rows of text
+will be displayed
+#}
+
+
+{% extends 'page.html' %}
+
+{% set articles=h.articles_items()%}
+{% set lang=h.lang() %}
+
+{% block subtitle %} {{_('News')}} {% endblock %}
+{% block breadcrumb_content %}
+<li class="active">
+     <a href="/news?page=1"> {{_('News')}}</a>
+</li>
+{% endblock %}
+{% set lang = h.lang() %}
+{% set total_pages = h.get_total_pages() %}
+{% block page_header %}{% endblock %}
+{% block secondary %}{% endblock %}
+{% block primary %}
+<div class="col-12">
+     <div id="dategov-articles-container" class="row">
+          {% for article in articles %}
+          <article class="col-12 col-sm-6">
+               <figure>
+                    <img class="image-fluid" src="{{article['coverImageLink']}}" alt="article">
+               </figure>
+               <header>
+                    <h2 class="font-weight-bold">
+                         {{ h.get_translation(article['title'], lang) }}
+                    </h2>
+                    <p class="limit-text-to-3-rows">
+                         {{ h.get_translation(article['abstract'],lang) }}
+                    </p>
+                    <ul class="articles-meta-info text-muted">
+                         <li>
+                              <i class="fa fa-calendar" aria-hidden="true"></i>
+                              {{h.datetime_to_readable(article['date'])['date']}}
+                              <!-- <i class="fa fa-clock-o" aria-hidden="true"></i>
+                         {{h.datetime_to_readable(article['date'])['time']}} -->
+                         </li>
+                         <li>
+                              <i class="fa fa-user" aria-hidden="true"></i>
+                              {{article['author']}}
+                         </li>
+                    </ul>
+               </header>
+               <a class="article-link" href="news/{{article['id']}}"></a>
+          </article>
+          {% endfor %}
+     </div>
+     {% if total_pages > 1%}     
+     <div class="row">
+          {% snippet "snippets/pagination.html" %}
+     </div>
+{% endif %}
+     
+</div>
+
+{%endblock%}

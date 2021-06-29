@@ -1,0 +1,50 @@
+{% extends 'page.html' %}
+{% set article=h.get_article_data_by_id(h.current_url()) %}
+{% set lang=h.lang()%}
+
+{% block subtitle %} {{_('News')}} {% endblock %}
+
+{% block breadcrumb_content %}
+<li class="active">
+     <a href="/news"> {{_('News')}}</a>
+</li>
+<li class="active">
+     <a href="/news/{{article['id']}}"> {{article['title'][lang]}}</a>
+</li>
+{% endblock %}
+{% set lang = h.lang() %}
+
+{% block page_header %}{% endblock %}
+{% block secondary %}{% endblock %}
+{% block primary %}
+<div id="dategov-articles-container">
+     <article class="col-12">
+          <header>
+               <h1 class="font-weight-bold">
+                    {{ h.get_translation(article['title'], lang) }}
+               </h1>
+               <ul class="articles-meta-info text-muted">
+                    <li>
+                         <i class="fa fa-calendar" aria-hidden="true"></i>
+                         {{h.datetime_to_readable(article['date'])['date']}}
+                         <!-- <i class="fa fa-clock-o" aria-hidden="true"></i>
+                              {{h.datetime_to_readable(article['date'])['time']}} -->
+                    </li>
+                    <li>
+                         <i class="fa fa-user" aria-hidden="true"></i>
+                         {{article['author']}}
+                    </li>
+               </ul>
+          </header>
+          <figure>
+               <img class="image-fluid" src="{{article['coverImageLink']}}" alt="">
+          </figure>
+          <p class="font-weight-bold">
+               {{ h.get_translation(article['abstract'], lang) }}
+          </p>
+          <p>
+               {{ h.get_translation(article['body'], lang) | safe}}
+          </p>
+     </article>
+</div>
+{%endblock%}

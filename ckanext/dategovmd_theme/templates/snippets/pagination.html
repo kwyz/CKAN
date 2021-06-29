@@ -1,0 +1,88 @@
+{% set current_page = h.get_current_articles_page() %}
+{% set total_pages = h.get_total_pages() %}
+
+<section class="module">
+    <div class="pagination-wrapper">
+        <ul class="pagination">
+            <li>
+                <a{% if current_page != 1 %} href="/news?page={{ current_page - 1 }}" {% endif %}>
+                    <i class="fa fa-chevron-left"></i>
+                </a>
+            </li>
+            <!-- If is more than 10 pages an current_page is less than 6 -->
+            {% if total_pages > 10 %}
+                <li {% if current_page == 1 %} class="active" {% endif %}>
+                    <a href="/news?page=1">
+                        1
+                    </a>
+                </li>
+                {% if current_page <=5 %} 
+                    {% for page_index in range(2, 6) %} 
+                        <li {% if page_index==current_page %} class="active" {% endif %}>
+                            <a href="/news?page={{page_index}}">
+                                {{page_index}}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    <li>
+                        <span>...</span>
+                    </li>
+                {% elif current_page >=6 and current_page <= total_pages - 5 %} 
+                    <li>
+                        <span>...</span>
+                    </li>
+                    <li>
+                        <a href="/news?page={{current_page - 1}}">
+                            {{current_page - 1}}
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="/news?page={{current_page}}">
+                            {{current_page}}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/news?page={{current_page + 1}}">
+                            {{current_page + 1}}
+                        </a>
+                    </li>
+                    <li>
+                        <span>...</span>
+                    </li>
+                {% else %}
+                <li>
+                    <span>...</span>
+                </li>
+                    {% for page_index in range(total_pages - 5, total_pages) %} 
+                 
+                    <li {% if
+                        page_index==current_page %} class="active" {% endif %}>
+                        <a href="/news?page={{page_index}}">
+                            {{page_index}}
+                        </a>
+                    </li>
+                    {% endfor %}
+                {% endif %}
+                <li {% if total_pages==current_page %} class="active" {% endif %}>
+                    <a href="/news?page={{total_pages}}">
+                        {{total_pages}}
+                    </a>
+                </li>
+            {% endif %}
+            {% if total_pages <= 10 %} 
+                {% for page_index in range(1, total_pages+1) %} 
+                    <li {% if page_index==current_page %} class="active" {% endif %}>
+                        <a href="/news?page={{page_index}}">
+                            {{page_index}}
+                        </a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+            <li>
+                <a {% if current_page != total_pages %} href="/news?page={{ current_page + 1 }}" {% endif %}>
+                    <i class="fa fa-chevron-right"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>

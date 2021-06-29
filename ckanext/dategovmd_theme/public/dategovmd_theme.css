@@ -2,7 +2,7 @@
          The css file of the ckan.date.egov.md
    ===================================================== */
       
-.d-flex {
+   .d-flex {
     display: flex !important;
 }
 
@@ -39,6 +39,12 @@
 .mr-1 {
     margin-right: .25rem !important;
 }
+.mt-2 {
+    margin-top: .5rem !important;
+}
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
 
 /* =====================================================
  * 	    The css classes for date.gov.md header logo
@@ -71,3 +77,79 @@
 }
 
 
+/* =====================================================
+ *      The css classes that fix language selector 
+ * ===================================================== */
+
+div#s2id_field-lang-select > .select2-choice > .select2-chosen {
+    text-transform: capitalize;
+}
+
+.lang-dropdown#select2-drop > .select2-results .select2-result-label {
+    text-transform: capitalize;
+}
+
+/* =====================================================
+ *      The css classes used by news page
+ * ===================================================== */
+
+ .limit-text-to-3-rows {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
+
+ .articles-meta-info {
+    list-style: none;
+    display: inline-flex;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    line-height: 12px;
+    align-items: center;
+}
+
+.articles-meta-info li {
+    margin: 0 15px 0 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.image-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+#dategov-articles-container article {
+    margin-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#dategov-articles-container article figure {
+    display: flex;
+    justify-content: center;
+}
+
+#dategov-article-container article {
+    margin: 20px 20px 20px 20px;
+}
+#dategov-article-container #article-abstract {
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+#dategov-article-container #article-abstract b {
+    font-style: italic;
+}
+
+article .article-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
